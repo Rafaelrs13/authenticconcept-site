@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rafaelrs13.github.io/authenticconcept-site/sitemap.xml
