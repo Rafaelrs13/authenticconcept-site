@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de Fotos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbtsF1sr5Ux8i3o-lcTy3mMkx8M2yrIAi-hg&s" alt="Logotipo Uniube" class="logo-uniube" />
+    </div>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="links.html">Links</a>
+        <a href="fotos.html">Fotos</a>
+        <a href="tabela.html">Tabela</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f2f2f2;
+          margin: 0;
+          padding: 0;
+          
+        }
+    
+        .container {
+          padding: 40px;
+          text-align: center;
+        }
+    
+        h1 {
+          color: #333;
+        }
+    
+        .galeria {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+          gap: 20px;
+          margin-top: 30px;
+        }
+    
+        .carro {
+          background-color: rgb(192, 194, 190);
+          padding: 10px;
+          border-radius: 10px;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+    
+        .carro img {
+          width: 100%;
+          border-radius: 8px;
+          height: 120px;
+          object-fit: cover;
+        }
+    
+        .carro p {
+          margin-top: 10px;
+          font-weight: bold;
+          color: #0c0c0c;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <h1>Galeria de Tenis</h1>
+        <div class="galeria">
+          <div class="carro">
+            <img src="https://p.turbosquid.com/ts-thumb/ZS/sHDmoC/DEDY9CW8/1/png/1574605601/1920x1080/fit_q99/6a710b8289e7f3963e4a574ae8f8c0075ab3ff44/1.jpg" alt="Jordan">
+            <p>Jordan 1 Retro</p>
+          </div>
+          <div class="carro">
+            <img src="https://acdn-us.mitiendanube.com/stores/001/038/770/products/nike-kd-15-bad-purple-fj1216-500-101-5aaa248bdc5461ca6a16737886495023-1024-1024.jpg" alt="KD">
+            <p>Nike KD 15</p>
+          </div>
+          <div class="carro">
+            <img src="https://i.ebayimg.com/images/g/8NEAAOSwfjxkuJXJ/s-l400.jpg" alt="LeBron">
+            <p>Nike LeBron 20 Debut white</p>
+          </div>
+          <div class="carro">
+            <img src="https://sneakernews.com/wp-content/uploads/2024/12/nike-zoom-gt-cut-3-hyper-pink-metallic-silver-pink-foam-black-dv2913-600-4.jpg" alt="GT CUT">
+            <p>NIke G.T Cut</p>
+          </div>
+          <div class="carro">
+            <img src="https://sneakernews.com/wp-content/uploads/2024/08/adidas-dame-9-formula-zero-pe-1.jpg" alt="Dame">
+            <p>Dame 9</p>
+          </div>
+          <div class="carro">
+            <img src="https://underarmourbr.vtexassets.com/assets/vtex.file-manager-graphql/images/c26e387d-5960-4830-b5dc-363d41899ee4___2a9b0edff3bfdaed3616a7672003cdce.png" alt="Curry">
+            <p>Curry 11</p>
+          </div>
+          <div class="carro">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLkmrgmYIzT0-A8oRARhjtfiQDt7tV6IHFkQ&s" alt="Don">
+            <p>D.O.N Issue 2 Crayola blue</p>
+          </div>
+          <div class="carro">
+            <img src="https://sneakernews.com/wp-content/uploads/2018/11/jordan-why-not-zer0-1-chaos-BV5499-008-lead.jpg" alt="Russell">
+            <p>why Not Zer0.1 Chaos</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <footer class="rodape">
+        Rafael Rodrigues Santos - 1184891
+      </footer>
+</body>
+</html>
